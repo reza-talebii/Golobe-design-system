@@ -1,4 +1,5 @@
 # golobe-design-system
+https://www.npmjs.com/package/golobe-design-system
 
 > Made with create-react-library
 
