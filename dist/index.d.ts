@@ -1,6 +1,9 @@
-/// <reference types="react" />
-interface Props {
-    text: string;
+import { FC, ReactNode } from 'react';
+import { ButtonProps } from 'antd/lib/button';
+
+interface IProps extends ButtonProps {
+    children?: ReactNode;
 }
-export declare const ExampleComponent: ({ text }: Props) => JSX.Element;
-export {};
+declare const ButtonUi: FC<IProps>;
+
+export { ButtonUi };
