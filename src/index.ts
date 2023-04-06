@@ -12,6 +12,8 @@ import TabUi from "./components/Tabs";
 import TextAreaUi from "./components/TextArea";
 import GlobalStyle from "./styles/global.style";
 export * from "./theme";
+export { default as DefaultTheme } from "./styled";
+
 export {
   GlobalStyle,
   ButtonUi,
