@@ -14,10 +14,11 @@ interface IProps extends SelectProps<any, any> {
   wrapperClassName?: string;
 }
 
-export const SelectUi: FC<IProps> = ({ label, wrapperClassName, ...props }) => {
+const SelectUi: FC<IProps> = ({ label, wrapperClassName, ...props }) => {
   return (
     <FormControlUiKit label={label} className={wrapperClassName}>
       <SelectStyled {...props} />
     </FormControlUiKit>
   );
 };
+export default SelectUi;

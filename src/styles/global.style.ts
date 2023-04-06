@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   * {
   box-sizing: border-box;
   padding: 0;
@@ -23,17 +23,17 @@ body{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: ${props => props.theme.colors.primary};
+  background: ${(props) => props.theme.colors.primary};
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background:  ${props => props.theme.colors.primary};
+  background:  ${(props) => props.theme.colors.primary};
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background:  ${props => props.theme.colors.primary};
+  background:  ${(props) => props.theme.colors.primary};
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -54,7 +54,7 @@ input::placeholder {
 
 button, [type="button"], [type="reset"], [type="submit"] {
     appearance: button;
-    background-color:${props => props.theme.colors.primary} !important;
+    background-color:${(props) => props.theme.colors.primary} !important;
     background-image: inherit;
 }
 
@@ -63,4 +63,5 @@ button, [type="button"], [type="reset"], [type="submit"] {
   font-size: 14px;
 }
 
-`
+`;
+export default GlobalStyle;
