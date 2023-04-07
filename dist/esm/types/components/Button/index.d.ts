@@ -1,5 +1,5 @@
-import { FC, ReactNode } from 'react';
-import { ButtonProps } from 'antd/lib/button';
+import { FC, ReactNode } from "react";
+import { ButtonProps } from "antd/lib/button";
 interface IProps extends ButtonProps {
     children?: ReactNode;
 }

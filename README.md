@@ -1,13 +1,13 @@
-# golobe-design-system
+# golobe-ui
 
-https://www.npmjs.com/package/golobe-design-system
+https://www.npmjs.com/package/golobe-ui
 
 [![NPM](https://img.shields.io/npm/v/golobe-design-system.svg)](https://www.npmjs.com/package/golobe-design-system) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save golobe-design-system
+npm install --save golobe-ui
 ```
 
 ## Usage

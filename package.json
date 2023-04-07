@@ -1,6 +1,6 @@
 {
   "name": "golobe-ui",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A stroybook 6 with TypeScript demo",
   "author": "reza-talebi",
   "main": "dist/cjs/index.js",
@@ -8,7 +8,7 @@
   "types": "dist/index.d.ts",
   "repository": "https://github.com/reza-talebii/Golobe-design-system",
   "scripts": {
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006 ",
     "build-storybook": "build-storybook",
     "build": "rollup -c"
   },

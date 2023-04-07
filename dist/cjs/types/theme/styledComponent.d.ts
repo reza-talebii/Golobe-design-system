@@ -1,3 +1,2 @@
-import { DefaultTheme } from 'styled-components';
-declare const styledComponentsTheme: DefaultTheme;
-export default styledComponentsTheme;
+import { DefaultTheme } from "styled-components";
+export declare const styledComponentsTheme: DefaultTheme;

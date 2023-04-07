@@ -7,5 +7,5 @@ interface IProps extends SelectProps<any, any> {
     filterOption?: boolean | FilterFunc<BaseOptionType | DefaultOptionType>;
     wrapperClassName?: string;
 }
-export declare const SelectUi: FC<IProps>;
-export {};
+declare const SelectUi: FC<IProps>;
+export default SelectUi;
