@@ -1,5 +1,5 @@
 # golobe-design-system
-https://www.npmjs.com/package/golobe-design-system
+https://www.npmjs.com/package/golobe-ui
 
 
 
@@ -8,7 +8,7 @@ https://www.npmjs.com/package/golobe-design-system
 ## Install
 
 ```bash
-npm install --save golobe-design-system
+npm install --save golobe-ui
 ```
 
 ## Usage
